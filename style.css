@@ -1,0 +1,44 @@
+:root{
+    --background: #2A1F2D;
+    --primaryContainer: #7CC6FE;
+    --accent: #56E39F;
+    --text: #3B2C35;
+    --shadows: #6D597A;
+}
+
+body, html{
+    width: 100%;
+    margin: 0;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: var(--accent);
+    color: var(--background);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#gameplay{
+    margin-top: 3rem;
+    aspect-ratio: 1/1;
+    width: 70vh;
+    border: 1px solid var(--accent);
+}
+
+table{
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    border-radius: 100%;
+}
